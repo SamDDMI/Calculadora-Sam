@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBEDE1A82C82181C00EE49A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDE1A72C82181C00EE49A5 /* AppDelegate.swift */; };
+		FBEDE1AA2C82181C00EE49A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDE1A92C82181C00EE49A5 /* SceneDelegate.swift */; };
+		FBEDE1AC2C82181C00EE49A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDE1AB2C82181C00EE49A5 /* ViewController.swift */; };
+		FBEDE1AF2C82181C00EE49A5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FBEDE1AE2C82181C00EE49A5 /* Base */; };
+		FBEDE1B12C82181C00EE49A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEDE1B02C82181C00EE49A5 /* Assets.xcassets */; };
+		FBEDE1B42C82181C00EE49A5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FBEDE1B32C82181C00EE49A5 /* Base */; };
+		FBEDE1BF2C82181C00EE49A5 /* Calculadora_SamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDE1BE2C82181C00EE49A5 /* Calculadora_SamTests.swift */; };
+		FBEDE1C92C82181C00EE49A5 /* Calculadora_SamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDE1C82C82181C00EE49A5 /* Calculadora_SamUITests.swift */; };
+		FBEDE1CB2C82181C00EE49A5 /* Calculadora_SamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDE1CA2C82181C00EE49A5 /* Calculadora_SamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBEDE1BB2C82181C00EE49A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEDE19C2C82181C00EE49A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEDE1A32C82181C00EE49A5;
+			remoteInfo = "Calculadora Sam";
+		};
+		FBEDE1C52C82181C00EE49A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEDE19C2C82181C00EE49A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEDE1A32C82181C00EE49A5;
+			remoteInfo = "Calculadora Sam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBEDE1A42C82181C00EE49A5 /* Calculadora Sam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculadora Sam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEDE1A72C82181C00EE49A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBEDE1A92C82181C00EE49A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBEDE1AB2C82181C00EE49A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBEDE1AE2C82181C00EE49A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBEDE1B02C82181C00EE49A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBEDE1B32C82181C00EE49A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBEDE1B52C82181C00EE49A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEDE1BA2C82181C00EE49A5 /* Calculadora SamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculadora SamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEDE1BE2C82181C00EE49A5 /* Calculadora_SamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora_SamTests.swift; sourceTree = "<group>"; };
+		FBEDE1C42C82181C00EE49A5 /* Calculadora SamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculadora SamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEDE1C82C82181C00EE49A5 /* Calculadora_SamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora_SamUITests.swift; sourceTree = "<group>"; };
+		FBEDE1CA2C82181C00EE49A5 /* Calculadora_SamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora_SamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBEDE1A12C82181C00EE49A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEDE1B72C82181C00EE49A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEDE1C12C82181C00EE49A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBEDE19B2C82181C00EE49A5 = {
+			isa = PBXGroup;
+			children = (
+				FBEDE1A62C82181C00EE49A5 /* Calculadora Sam */,
+				FBEDE1BD2C82181C00EE49A5 /* Calculadora SamTests */,
+				FBEDE1C72C82181C00EE49A5 /* Calculadora SamUITests */,
+				FBEDE1A52C82181C00EE49A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBEDE1A52C82181C00EE49A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBEDE1A42C82181C00EE49A5 /* Calculadora Sam.app */,
+				FBEDE1BA2C82181C00EE49A5 /* Calculadora SamTests.xctest */,
+				FBEDE1C42C82181C00EE49A5 /* Calculadora SamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBEDE1A62C82181C00EE49A5 /* Calculadora Sam */ = {
+			isa = PBXGroup;
+			children = (
+				FBEDE1A72C82181C00EE49A5 /* AppDelegate.swift */,
+				FBEDE1A92C82181C00EE49A5 /* SceneDelegate.swift */,
+				FBEDE1AB2C82181C00EE49A5 /* ViewController.swift */,
+				FBEDE1AD2C82181C00EE49A5 /* Main.storyboard */,
+				FBEDE1B02C82181C00EE49A5 /* Assets.xcassets */,
+				FBEDE1B22C82181C00EE49A5 /* LaunchScreen.storyboard */,
+				FBEDE1B52C82181C00EE49A5 /* Info.plist */,
+			);
+			path = "Calculadora Sam";
+			sourceTree = "<group>";
+		};
+		FBEDE1BD2C82181C00EE49A5 /* Calculadora SamTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEDE1BE2C82181C00EE49A5 /* Calculadora_SamTests.swift */,
+			);
+			path = "Calculadora SamTests";
+			sourceTree = "<group>";
+		};
+		FBEDE1C72C82181C00EE49A5 /* Calculadora SamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEDE1C82C82181C00EE49A5 /* Calculadora_SamUITests.swift */,
+				FBEDE1CA2C82181C00EE49A5 /* Calculadora_SamUITestsLaunchTests.swift */,
+			);
+			path = "Calculadora SamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBEDE1A32C82181C00EE49A5 /* Calculadora Sam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEDE1CE2C82181C00EE49A5 /* Build configuration list for PBXNativeTarget "Calculadora Sam" */;
+			buildPhases = (
+				FBEDE1A02C82181C00EE49A5 /* Sources */,
+				FBEDE1A12C82181C00EE49A5 /* Frameworks */,
+				FBEDE1A22C82181C00EE49A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculadora Sam";
+			productName = "Calculadora Sam";
+			productReference = FBEDE1A42C82181C00EE49A5 /* Calculadora Sam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBEDE1B92C82181C00EE49A5 /* Calculadora SamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEDE1D12C82181C00EE49A5 /* Build configuration list for PBXNativeTarget "Calculadora SamTests" */;
+			buildPhases = (
+				FBEDE1B62C82181C00EE49A5 /* Sources */,
+				FBEDE1B72C82181C00EE49A5 /* Frameworks */,
+				FBEDE1B82C82181C00EE49A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEDE1BC2C82181C00EE49A5 /* PBXTargetDependency */,
+			);
+			name = "Calculadora SamTests";
+			productName = "Calculadora SamTests";
+			productReference = FBEDE1BA2C82181C00EE49A5 /* Calculadora SamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBEDE1C32C82181C00EE49A5 /* Calculadora SamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEDE1D42C82181C00EE49A5 /* Build configuration list for PBXNativeTarget "Calculadora SamUITests" */;
+			buildPhases = (
+				FBEDE1C02C82181C00EE49A5 /* Sources */,
+				FBEDE1C12C82181C00EE49A5 /* Frameworks */,
+				FBEDE1C22C82181C00EE49A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEDE1C62C82181C00EE49A5 /* PBXTargetDependency */,
+			);
+			name = "Calculadora SamUITests";
+			productName = "Calculadora SamUITests";
+			productReference = FBEDE1C42C82181C00EE49A5 /* Calculadora SamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBEDE19C2C82181C00EE49A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FBEDE1A32C82181C00EE49A5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FBEDE1B92C82181C00EE49A5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FBEDE1A32C82181C00EE49A5;
+					};
+					FBEDE1C32C82181C00EE49A5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FBEDE1A32C82181C00EE49A5;
+					};
+				};
+			};
+			buildConfigurationList = FBEDE19F2C82181C00EE49A5 /* Build configuration list for PBXProject "Calculadora Sam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBEDE19B2C82181C00EE49A5;
+			productRefGroup = FBEDE1A52C82181C00EE49A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEDE1A32C82181C00EE49A5 /* Calculadora Sam */,
+				FBEDE1B92C82181C00EE49A5 /* Calculadora SamTests */,
+				FBEDE1C32C82181C00EE49A5 /* Calculadora SamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBEDE1A22C82181C00EE49A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEDE1B12C82181C00EE49A5 /* Assets.xcassets in Resources */,
+				FBEDE1B42C82181C00EE49A5 /* Base in Resources */,
+				FBEDE1AF2C82181C00EE49A5 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEDE1B82C82181C00EE49A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEDE1C22C82181C00EE49A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBEDE1A02C82181C00EE49A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEDE1AC2C82181C00EE49A5 /* ViewController.swift in Sources */,
+				FBEDE1A82C82181C00EE49A5 /* AppDelegate.swift in Sources */,
+				FBEDE1AA2C82181C00EE49A5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEDE1B62C82181C00EE49A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEDE1BF2C82181C00EE49A5 /* Calculadora_SamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEDE1C02C82181C00EE49A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEDE1CB2C82181C00EE49A5 /* Calculadora_SamUITestsLaunchTests.swift in Sources */,
+				FBEDE1C92C82181C00EE49A5 /* Calculadora_SamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBEDE1BC2C82181C00EE49A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEDE1A32C82181C00EE49A5 /* Calculadora Sam */;
+			targetProxy = FBEDE1BB2C82181C00EE49A5 /* PBXContainerItemProxy */;
+		};
+		FBEDE1C62C82181C00EE49A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEDE1A32C82181C00EE49A5 /* Calculadora Sam */;
+			targetProxy = FBEDE1C52C82181C00EE49A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBEDE1AD2C82181C00EE49A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEDE1AE2C82181C00EE49A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBEDE1B22C82181C00EE49A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEDE1B32C82181C00EE49A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBEDE1CC2C82181C00EE49A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBEDE1CD2C82181C00EE49A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBEDE1CF2C82181C00EE49A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculadora Sam/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uacj.calculadora-sam.Calculadora-Sam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBEDE1D02C82181C00EE49A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculadora Sam/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uacj.calculadora-sam.Calculadora-Sam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBEDE1D22C82181C00EE49A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uacj.calculadora-sam.Calculadora-SamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculadora Sam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calculadora Sam";
+			};
+			name = Debug;
+		};
+		FBEDE1D32C82181C00EE49A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uacj.calculadora-sam.Calculadora-SamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculadora Sam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calculadora Sam";
+			};
+			name = Release;
+		};
+		FBEDE1D52C82181C00EE49A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uacj.calculadora-sam.Calculadora-SamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calculadora Sam";
+			};
+			name = Debug;
+		};
+		FBEDE1D62C82181C00EE49A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.uacj.calculadora-sam.Calculadora-SamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calculadora Sam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBEDE19F2C82181C00EE49A5 /* Build configuration list for PBXProject "Calculadora Sam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEDE1CC2C82181C00EE49A5 /* Debug */,
+				FBEDE1CD2C82181C00EE49A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEDE1CE2C82181C00EE49A5 /* Build configuration list for PBXNativeTarget "Calculadora Sam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEDE1CF2C82181C00EE49A5 /* Debug */,
+				FBEDE1D02C82181C00EE49A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEDE1D12C82181C00EE49A5 /* Build configuration list for PBXNativeTarget "Calculadora SamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEDE1D22C82181C00EE49A5 /* Debug */,
+				FBEDE1D32C82181C00EE49A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEDE1D42C82181C00EE49A5 /* Build configuration list for PBXNativeTarget "Calculadora SamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEDE1D52C82181C00EE49A5 /* Debug */,
+				FBEDE1D62C82181C00EE49A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBEDE19C2C82181C00EE49A5 /* Project object */;
+}
