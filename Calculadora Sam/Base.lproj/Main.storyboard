@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="pB6-go-vST">
-                                <rect key="frame" x="112" y="375" width="169" height="209.33333333333337"/>
+                                <rect key="frame" x="112" y="375" width="169" height="267.66666666666674"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fHe-mA-W66">
                                         <rect key="frame" x="0.0" y="0.0" width="169" height="34.333333333333336"/>
@@ -153,6 +153,41 @@
                                                 <rect key="frame" x="125.33333333333336" y="0.0" width="43.666666666666671" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="op"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9QR-mi-TZl">
+                                        <rect key="frame" x="0.0" y="233.33333333333337" width="169" height="34.333333333333314"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" restorationIdentifier="botonQR" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CH6-T7-7cO">
+                                                <rect key="frame" x="0.0" y="0.0" width="56.333333333333336" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="+">
+                                                    <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jg6-qO-h3h"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" restorationIdentifier="botonQR" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bM5-nX-TWP">
+                                                <rect key="frame" x="56.333333333333343" y="0.0" width="56.333333333333343" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="-">
+                                                    <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pqj-Ih-gQM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" restorationIdentifier="botonQR" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlc-gZ-GUP">
+                                                <rect key="frame" x="112.66666666666664" y="0.0" width="56.333333333333329" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="/">
+                                                    <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="esto_hace_el_boton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5jF-lq-fHx"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
